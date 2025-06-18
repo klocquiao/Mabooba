@@ -1,43 +1,52 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750138323
-Beam.cs::CSharpScript/CSharpScript::41504728126293710::1750110156::0::1::::<>Area2D<><>0<>0<><>::
-beam.tscn::PackedScene/PackedScene::6357342844225700914::1750110157::0::1::::<><><>0<>0<><>::uid://udtu14y0fj7::::res://Beam.cs<>uid://83s7pholoonf::::res://textures/Space_Stars7.svg
-Circle.tscn::PackedScene/PackedScene::8674303162256835742::1750138105::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D/CompressedTexture2D::1021859864528159400::1740855835::1749698115::1::::<><><>0<>0<>886772652873eb3cfd0be228178c3027<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene/PackedScene::583828546625334691::1750110157::0::1::::<><><>0<>0<><>::uid://bbi8ygj1a622w::::res://player.tscn<>uid://ld3ydmymdc8i::::res://rainy/2d_lights_and_shadows_neutral_point_light.webp<>uid://ci4huuyr3jv68::::res://stage.tscn<>uid://cwtsrjbs2pgdm::::res://beam.tscn
-Player.cs::CSharpScript/CSharpScript::5906502686564442489::1750051950::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene/PackedScene::2475171399404534672::1750110157::0::1::::<><><>0<>0<><>::uid://cqffibfoawqpl::::res://Player.cs<>uid://dpnpplfcu05o4::::res://rainy/rainback.png<>uid://hkf5vtqk05fq::::res://rainy/rainfront.png<>uid://satcnk5hhoa1::::res://rainy/rainside2.png<>uid://bp3os2ajtj7rc::::res://rainy/rainside.png
-stage.tscn::PackedScene/PackedScene::5394680894538165435::1750110157::0::1::::<><><>0<>0<><>::uid://b64nwd1fialyt::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Stone Ground.png<>uid://dg88ccmpiu1w::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Grass.png<>uid://ygrw2lefiswn::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Props.png
-::res://Pixel Art Top Down - Basic v1.2.0/::1749874567
-Changelog.txt::TextFile/TextFile::-1::1749874156::0::1::::<><><>0<>0<><>::
-Scene Overview.png::CompressedTexture2D/CompressedTexture2D::4146636051961799515::1749874156::1749874567::1::::<><><>0<>0<>12308a85cd6d168a0d956f0ccff8c16a<>res://.godot/imported/Scene Overview.png-091acad22473e77ce3061aad36230ee9.ctex::
-::res://Pixel Art Top Down - Basic v1.2.0/Texture/::1749874567
-TX Plant.png::CompressedTexture2D/CompressedTexture2D::7258320502659281247::1749874156::1749874567::1::::<><><>0<>0<>f3baf2bc63832dd04d9490155268f388<>res://.godot/imported/TX Plant.png-ff04fa5634dd8fe6f63b3d5bbe855e49.ctex::
-TX Player.png::CompressedTexture2D/CompressedTexture2D::4820825177894797224::1749874156::1749874567::1::::<><><>0<>0<>d3a21289e8e2e086e845fddfff1f34be<>res://.godot/imported/TX Player.png-206cd988d6a6d95202245ab7a4e993f0.ctex::
-TX Props.png::CompressedTexture2D/CompressedTexture2D::1697991425492135313::1749874156::1749874567::1::::<><><>0<>0<>86cd90fb2d19a4b70f57f20e35e6e02b<>res://.godot/imported/TX Props.png-d99a914fb2a79b46dd186a51564058cb.ctex::
-TX Shadow Plant.png::CompressedTexture2D/CompressedTexture2D::296765163847348875::1749874156::1749874567::1::::<><><>0<>0<>bac441f4d4a63574d630c92accc88152<>res://.godot/imported/TX Shadow Plant.png-582735ba72529aaedb4873e4cb844596.ctex::
-TX Shadow.png::CompressedTexture2D/CompressedTexture2D::6281376225243755787::1749874156::1749874567::1::::<><><>0<>0<>472f608d2705703c07e29bba22b250fc<>res://.godot/imported/TX Shadow.png-ff8ef7983347608f29651b21ad63cf28.ctex::
-TX Struct.png::CompressedTexture2D/CompressedTexture2D::7610783275036749531::1749874156::1749874567::1::::<><><>0<>0<>092baa12d4a6705b88f69ce720e275f2<>res://.godot/imported/TX Struct.png-e47d33fd38c82a1cad35392f18651027.ctex::
-TX Tileset Grass.png::CompressedTexture2D/CompressedTexture2D::225015498100528394::1749874156::1749874567::1::::<><><>0<>0<>486f60f870ab69b01d8dcb240d78152b<>res://.godot/imported/TX Tileset Grass.png-ee2a37dfae5ccb4a573c7ccdccefd1f6.ctex::
-TX Tileset Stone Ground.png::CompressedTexture2D/CompressedTexture2D::4622970597684556815::1749874156::1749874567::1::::<><><>0<>0<>3fd3998658323e610f2c76fab140443b<>res://.godot/imported/TX Tileset Stone Ground.png-f3a4b9d1009ded7c058370b29818afe5.ctex::
-TX Tileset Wall.png::CompressedTexture2D/CompressedTexture2D::3911297042442871862::1749874156::1749874567::1::::<><><>0<>0<>63ad2aab3e68d35badc920050bf5f23e<>res://.godot/imported/TX Tileset Wall.png-e1ed1611fbc8020962c636e4809cab35.ctex::
-::res://Pixel Art Top Down - Basic v1.2.0/Texture/Extra/::1749874567
-TX Plant with Shadow.png::CompressedTexture2D/CompressedTexture2D::8838481322925144390::1749874156::1749874567::1::::<><><>0<>0<>247bae7046032e07bdd68f98f568e411<>res://.godot/imported/TX Plant with Shadow.png-bbbddf176214fcac4b2191c703e2aba4.ctex::
-TX Props with Shadow.png::CompressedTexture2D/CompressedTexture2D::8713190635114145737::1749874156::1749874567::1::::<><><>0<>0<>14a5284ab008a800de2132d691eeae6d<>res://.godot/imported/TX Props with Shadow.png-de2eb33a37abdb72c6771b73e979840d.ctex::
-::res://rainy/::1749698115
-2d_lights_and_shadows_neutral_point_light.webp::CompressedTexture2D/CompressedTexture2D::780013525346025034::1741836180::1749698115::1::::<><><>0<>0<>41c4089e488395468bb6242e5773f851<>res://.godot/imported/2d_lights_and_shadows_neutral_point_light.webp-0206b0a09d9c01446a1f1b0d98155e3b.ctex::
-rainback.png::CompressedTexture2D/CompressedTexture2D::8239869743852125433::1740856845::1749698115::1::::<><><>0<>0<>2fe3b80658b05c7018445e1b0c252dfe<>res://.godot/imported/rainback.png-11821d8d574345110b85d7b3aaa8db7a.ctex::
-rainfront.png::CompressedTexture2D/CompressedTexture2D::512323974870788186::1740856845::1749698115::1::::<><><>0<>0<>b0caa055f84422985250256eb60a001c<>res://.godot/imported/rainfront.png-e6c34b41d3d7997da401476e7c04ec94.ctex::
-rainside2.png::CompressedTexture2D/CompressedTexture2D::1264557079559259962::1740856845::1749698115::1::::<><><>0<>0<>a14ab4a7337808d7e566e3e013197b4c<>res://.godot/imported/rainside2.png-7798e4ef853d2f8caa26928f7df09cd0.ctex::
-rainside.png::CompressedTexture2D/CompressedTexture2D::3497939516131433564::1740856845::1749698115::1::::<><><>0<>0<>acb455ba05e8b25bab6244e76264bbd1<>res://.godot/imported/rainside.png-73a799e4d47d624bfc2692eb8dd23257.ctex::
-::res://textures/::1750138323
-rune.png::CompressedTexture2D::5766121244284195510::1750138319::1750138323::1::::<><><>0<>0<>5b3d1b95a6e35c5c1627fcac9c0f3141<>res://.godot/imported/rune.png-3c7bc96ae0ee3ddc465fdc51f04ce44b.ctex::
-Space_Stars1.svg::CompressedTexture2D/CompressedTexture2D::2029148909893155204::1750099137::1750099137::1::::<><><>0<>0<>fca4bf889a5ded25df063d1c3d69927a<>res://.godot/imported/Space_Stars1.svg-46b43c5b0f806d529b2ab79c90315502.ctex::
-Space_Stars2.svg::CompressedTexture2D/CompressedTexture2D::5429053675486884421::1750099137::1750099137::1::::<><><>0<>0<>d89695149f53bc46466cf4b676e7f435<>res://.godot/imported/Space_Stars2.svg-8eb2ca28831517ccb85f4ea0b05f9856.ctex::
-Space_Stars3.svg::CompressedTexture2D/CompressedTexture2D::2173679837048232689::1750099137::1750099137::1::::<><><>0<>0<>a5b4a54c731f04bf5ba9dfca7409b82b<>res://.godot/imported/Space_Stars3.svg-ec3a9c00deac70cfc2b1ac61ff99e39d.ctex::
-Space_Stars4.svg::CompressedTexture2D/CompressedTexture2D::5148360985661035752::1750099137::1750099137::1::::<><><>0<>0<>59235eaa80ba91ea129ef88fcd02604c<>res://.godot/imported/Space_Stars4.svg-a5679c73116d6498a8d7889254818b08.ctex::
-Space_Stars5.svg::CompressedTexture2D/CompressedTexture2D::7624581178616224743::1750099137::1750099137::1::::<><><>0<>0<>d15188ada11564d9e191909235a0bbe9<>res://.godot/imported/Space_Stars5.svg-a88b0f09029e8cf3be08ed5042dcf006.ctex::
-Space_Stars6.svg::CompressedTexture2D/CompressedTexture2D::4353811054845719377::1750099137::1750099137::1::::<><><>0<>0<>d55103218b7322d2b8a9761e0da03901<>res://.godot/imported/Space_Stars6.svg-ec7c5d65555fb0fbfbd93f6f015ac1fe.ctex::
-Space_Stars7.svg::CompressedTexture2D/CompressedTexture2D::2375185267758741015::1750099137::1750099137::1::::<><><>0<>0<>9d4503c3f1b938dc2795cd86920f0a1c<>res://.godot/imported/Space_Stars7.svg-7fa2e751a7f6c9ec7ad52a38f395b1a2.ctex::
-Space_Stars8.svg::CompressedTexture2D/CompressedTexture2D::8912107720133876967::1750099137::1750099137::1::::<><><>0<>0<>9ff638e17556111c5096483c56f738a7<>res://.godot/imported/Space_Stars8.svg-19252f00b478bfb0cd2b6b4fa36918ee.ctex::
-Space_Stars9.svg::CompressedTexture2D/CompressedTexture2D::2785919880478475370::1750099137::1750099137::1::::<><><>0<>0<>5208863e47fe445fa1b5ff339d8fd838<>res://.godot/imported/Space_Stars9.svg-42d8ccbd809911091732db4419850065.ctex::
+::res://::1750213362
+Beam.cs::CSharpScript::41504728126293710::1750208600::0::1::::<>Area2D<><>0<>0<><>::
+beam.tscn::PackedScene::6357342844225700914::1750213284::0::1::::<><><>0<>0<><>::uid://udtu14y0fj7::::res://Beam.cs<>uid://83s7pholoonf::::res://textures/Space_Stars7.svg
+Circle.tscn::PackedScene::8674303162256835742::1750213284::0::1::::<><><>0<>0<><>::uid://cofff6wxfqgos::::res://textures/rune.png
+icon.svg::CompressedTexture2D/CompressedTexture2D::1021859864528159400::1750208323::1750208384::1::::<><><>0<>0<>886772652873eb3cfd0be228178c3027<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::583828546625334691::1750213284::0::1::::<><><>0<>0<><>::uid://duj556oguhs6p::::res://Main.cs<>uid://bbi8ygj1a622w::::res://player.tscn<>uid://ld3ydmymdc8i::::res://rainy/2d_lights_and_shadows_neutral_point_light.webp<>uid://ci4huuyr3jv68::::res://stage.tscn<>uid://cwtsrjbs2pgdm::::res://beam.tscn<>uid://dvt5rgwba3e5s::::res://Circle.tscn<>uid://b7jh8lox3434f::::res://hud.tscn
+Player.cs::CSharpScript::5906502686564442489::1750208323::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::2475171399404534672::1750213284::0::1::::<><><>0<>0<><>::uid://cqffibfoawqpl::::res://Player.cs<>uid://dpnpplfcu05o4::::res://rainy/rainback.png<>uid://hkf5vtqk05fq::::res://rainy/rainfront.png<>uid://satcnk5hhoa1::::res://rainy/rainside2.png<>uid://bp3os2ajtj7rc::::res://rainy/rainside.png
+README.md::TextFile::-1::1750208323::0::1::::<><><>0<>0<><>::
+Main.cs::CSharpScript::8583495057377382189::1750212321::0::1::::<>Node2D<><>0<>0<><>::
+hud.tscn::PackedScene::4651527630512620887::1750213284::0::1::::<><><>0<>0<><>::uid://cqdpee8l6s5ky::::res://Hud.cs
+Hud.cs::CSharpScript::5902974158537921028::1750212344::0::1::::<>CanvasLayer<><>0<>0<><>::
+stage.tscn::PackedScene::5394680894538165435::1750213284::0::1::::<><><>0<>0<><>::uid://b64nwd1fialyt::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Stone Ground.png<>uid://dg88ccmpiu1w::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Grass.png<>uid://ygrw2lefiswn::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Props.png
+::res://horsie/::1750213362
+horseBack.png::CompressedTexture2D::4026861699918010841::1750213362::1750213362::1::::<><><>0<>0<>b8c09aed6542ea6456eabe39c424fefe<>res://.godot/imported/horseBack.png-7292585716d769943087b5cc0eb7bc4b.ctex::
+horseFront.png::CompressedTexture2D::1748854512024577366::1750213362::1750213362::1::::<><><>0<>0<>92967ca374f06055a14b68bccbe11e65<>res://.godot/imported/horseFront.png-dd62707e9ab6499bfa1c9f15752c1ef2.ctex::
+horseL.png::CompressedTexture2D::4256961541806895085::1750213362::1750213362::1::::<><><>0<>0<>711082a021dc804c6b8993475e1ec757<>res://.godot/imported/horseL.png-8b2c24d3a59e7a06bb770c93f7b3e4af.ctex::
+horseR.png::CompressedTexture2D::8015400207291007203::1750213362::1750213362::1::::<><><>0<>0<>35fcbc24924ae710607d7f09f318a5d6<>res://.godot/imported/horseR.png-689ce025593f40d8125916384b186a3a.ctex::
+::res://Pixel Art Top Down - Basic v1.2.0/::1750208385
+Changelog.txt::TextFile::-1::1750208323::0::1::::<><><>0<>0<><>::
+Scene Overview.png::CompressedTexture2D/CompressedTexture2D::4146636051961799515::1750208323::1750208385::1::::<><><>0<>0<>12308a85cd6d168a0d956f0ccff8c16a<>res://.godot/imported/Scene Overview.png-091acad22473e77ce3061aad36230ee9.ctex::
+::res://Pixel Art Top Down - Basic v1.2.0/Texture/::1750208384
+TX Plant.png::CompressedTexture2D/CompressedTexture2D::7258320502659281247::1750208323::1750208384::1::::<><><>0<>0<>f3baf2bc63832dd04d9490155268f388<>res://.godot/imported/TX Plant.png-ff04fa5634dd8fe6f63b3d5bbe855e49.ctex::
+TX Player.png::CompressedTexture2D/CompressedTexture2D::4820825177894797224::1750208323::1750208384::1::::<><><>0<>0<>d3a21289e8e2e086e845fddfff1f34be<>res://.godot/imported/TX Player.png-206cd988d6a6d95202245ab7a4e993f0.ctex::
+TX Props.png::CompressedTexture2D/CompressedTexture2D::1697991425492135313::1750208323::1750208384::1::::<><><>0<>0<>86cd90fb2d19a4b70f57f20e35e6e02b<>res://.godot/imported/TX Props.png-d99a914fb2a79b46dd186a51564058cb.ctex::
+TX Shadow Plant.png::CompressedTexture2D/CompressedTexture2D::296765163847348875::1750208323::1750208384::1::::<><><>0<>0<>bac441f4d4a63574d630c92accc88152<>res://.godot/imported/TX Shadow Plant.png-582735ba72529aaedb4873e4cb844596.ctex::
+TX Shadow.png::CompressedTexture2D/CompressedTexture2D::6281376225243755787::1750208323::1750208384::1::::<><><>0<>0<>472f608d2705703c07e29bba22b250fc<>res://.godot/imported/TX Shadow.png-ff8ef7983347608f29651b21ad63cf28.ctex::
+TX Struct.png::CompressedTexture2D/CompressedTexture2D::7610783275036749531::1750208323::1750208384::1::::<><><>0<>0<>092baa12d4a6705b88f69ce720e275f2<>res://.godot/imported/TX Struct.png-e47d33fd38c82a1cad35392f18651027.ctex::
+TX Tileset Grass.png::CompressedTexture2D/CompressedTexture2D::225015498100528394::1750208323::1750208384::1::::<><><>0<>0<>486f60f870ab69b01d8dcb240d78152b<>res://.godot/imported/TX Tileset Grass.png-ee2a37dfae5ccb4a573c7ccdccefd1f6.ctex::
+TX Tileset Stone Ground.png::CompressedTexture2D/CompressedTexture2D::4622970597684556815::1750208323::1750208384::1::::<><><>0<>0<>3fd3998658323e610f2c76fab140443b<>res://.godot/imported/TX Tileset Stone Ground.png-f3a4b9d1009ded7c058370b29818afe5.ctex::
+TX Tileset Wall.png::CompressedTexture2D/CompressedTexture2D::3911297042442871862::1750208323::1750208384::1::::<><><>0<>0<>63ad2aab3e68d35badc920050bf5f23e<>res://.godot/imported/TX Tileset Wall.png-e1ed1611fbc8020962c636e4809cab35.ctex::
+::res://Pixel Art Top Down - Basic v1.2.0/Texture/Extra/::1750208384
+TX Plant with Shadow.png::CompressedTexture2D/CompressedTexture2D::8838481322925144390::1750208323::1750208384::1::::<><><>0<>0<>247bae7046032e07bdd68f98f568e411<>res://.godot/imported/TX Plant with Shadow.png-bbbddf176214fcac4b2191c703e2aba4.ctex::
+TX Props with Shadow.png::CompressedTexture2D/CompressedTexture2D::8713190635114145737::1750208323::1750208384::1::::<><><>0<>0<>14a5284ab008a800de2132d691eeae6d<>res://.godot/imported/TX Props with Shadow.png-de2eb33a37abdb72c6771b73e979840d.ctex::
+::res://rainy/::1750208384
+2d_lights_and_shadows_neutral_point_light.webp::CompressedTexture2D/CompressedTexture2D::780013525346025034::1750208323::1750208384::1::::<><><>0<>0<>41c4089e488395468bb6242e5773f851<>res://.godot/imported/2d_lights_and_shadows_neutral_point_light.webp-0206b0a09d9c01446a1f1b0d98155e3b.ctex::
+rainback.png::CompressedTexture2D/CompressedTexture2D::8239869743852125433::1750208323::1750208384::1::::<><><>0<>0<>2fe3b80658b05c7018445e1b0c252dfe<>res://.godot/imported/rainback.png-11821d8d574345110b85d7b3aaa8db7a.ctex::
+rainfront.png::CompressedTexture2D/CompressedTexture2D::512323974870788186::1750208323::1750208384::1::::<><><>0<>0<>b0caa055f84422985250256eb60a001c<>res://.godot/imported/rainfront.png-e6c34b41d3d7997da401476e7c04ec94.ctex::
+rainside2.png::CompressedTexture2D/CompressedTexture2D::1264557079559259962::1750208323::1750208384::1::::<><><>0<>0<>a14ab4a7337808d7e566e3e013197b4c<>res://.godot/imported/rainside2.png-7798e4ef853d2f8caa26928f7df09cd0.ctex::
+rainside.png::CompressedTexture2D/CompressedTexture2D::3497939516131433564::1750208323::1750208384::1::::<><><>0<>0<>acb455ba05e8b25bab6244e76264bbd1<>res://.godot/imported/rainside.png-73a799e4d47d624bfc2692eb8dd23257.ctex::
+::res://textures/::1750208384
+rune.png::CompressedTexture2D/CompressedTexture2D::5766121244284195510::1750208323::1750208384::1::::<><><>0<>0<>5b3d1b95a6e35c5c1627fcac9c0f3141<>res://.godot/imported/rune.png-3c7bc96ae0ee3ddc465fdc51f04ce44b.ctex::
+Space_Stars1.svg::CompressedTexture2D/CompressedTexture2D::2029148909893155204::1750208323::1750208384::1::::<><><>0<>0<>fca4bf889a5ded25df063d1c3d69927a<>res://.godot/imported/Space_Stars1.svg-46b43c5b0f806d529b2ab79c90315502.ctex::
+Space_Stars2.svg::CompressedTexture2D/CompressedTexture2D::5429053675486884421::1750208323::1750208384::1::::<><><>0<>0<>d89695149f53bc46466cf4b676e7f435<>res://.godot/imported/Space_Stars2.svg-8eb2ca28831517ccb85f4ea0b05f9856.ctex::
+Space_Stars3.svg::CompressedTexture2D/CompressedTexture2D::2173679837048232689::1750208323::1750208384::1::::<><><>0<>0<>a5b4a54c731f04bf5ba9dfca7409b82b<>res://.godot/imported/Space_Stars3.svg-ec3a9c00deac70cfc2b1ac61ff99e39d.ctex::
+Space_Stars4.svg::CompressedTexture2D/CompressedTexture2D::5148360985661035752::1750208323::1750208384::1::::<><><>0<>0<>59235eaa80ba91ea129ef88fcd02604c<>res://.godot/imported/Space_Stars4.svg-a5679c73116d6498a8d7889254818b08.ctex::
+Space_Stars5.svg::CompressedTexture2D/CompressedTexture2D::7624581178616224743::1750208323::1750208384::1::::<><><>0<>0<>d15188ada11564d9e191909235a0bbe9<>res://.godot/imported/Space_Stars5.svg-a88b0f09029e8cf3be08ed5042dcf006.ctex::
+Space_Stars6.svg::CompressedTexture2D/CompressedTexture2D::4353811054845719377::1750208323::1750208384::1::::<><><>0<>0<>d55103218b7322d2b8a9761e0da03901<>res://.godot/imported/Space_Stars6.svg-ec7c5d65555fb0fbfbd93f6f015ac1fe.ctex::
+Space_Stars7.svg::CompressedTexture2D/CompressedTexture2D::2375185267758741015::1750208323::1750208384::1::::<><><>0<>0<>9d4503c3f1b938dc2795cd86920f0a1c<>res://.godot/imported/Space_Stars7.svg-7fa2e751a7f6c9ec7ad52a38f395b1a2.ctex::
+Space_Stars8.svg::CompressedTexture2D/CompressedTexture2D::8912107720133876967::1750208323::1750208384::1::::<><><>0<>0<>9ff638e17556111c5096483c56f738a7<>res://.godot/imported/Space_Stars8.svg-19252f00b478bfb0cd2b6b4fa36918ee.ctex::
+Space_Stars9.svg::CompressedTexture2D/CompressedTexture2D::2785919880478475370::1750208323::1750208384::1::::<><><>0<>0<>5208863e47fe445fa1b5ff339d8fd838<>res://.godot/imported/Space_Stars9.svg-42d8ccbd809911091732db4419850065.ctex::

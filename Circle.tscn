@@ -1,11 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://dvt5rgwba3e5s"]
+[gd_scene load_steps=5 format=3 uid="uid://dvt5rgwba3e5s"]
 
+[ext_resource type="Script" uid="uid://dgvskw7fn67w0" path="res://Circle.cs" id="1_nll1x"]
 [ext_resource type="Texture2D" uid="uid://cofff6wxfqgos" path="res://textures/rune.png" id="1_ortn3"]
+[ext_resource type="Texture2D" uid="uid://ld3ydmymdc8i" path="res://rainy/2d_lights_and_shadows_neutral_point_light.webp" id="2_j0i48"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_j0i48"]
 radius = 56.5685
 
 [node name="Area2D" type="Area2D"]
+script = ExtResource("1_nll1x")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(64, 64)
@@ -14,3 +17,16 @@ shape = SubResource("CircleShape2D_j0i48")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(64, 64)
 texture = ExtResource("1_ortn3")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(64, 64)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_j0i48")
+
+[node name="CircleTimer" type="Timer" parent="."]
+wait_time = 7.5
+one_shot = true
+
+[connection signal="body_entered" from="." to="." method="OnBodyEntered"]
+[connection signal="body_exited" from="." to="." method="OnBodyExited"]
+[connection signal="timeout" from="CircleTimer" to="." method="OnCircleTimeout"]

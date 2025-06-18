@@ -29,8 +29,8 @@ region_enabled = true
 region_rect = Rect2(0, 0, 1152, 64)
 
 [node name="FiringTimer" type="Timer" parent="."]
-wait_time = 2.0
 one_shot = true
 
 [connection signal="body_entered" from="." to="." method="OnBodyEntered"]
+[connection signal="body_exited" from="." to="." method="OnBodyExited"]
 [connection signal="timeout" from="FiringTimer" to="." method="OnFiringTimeout"]

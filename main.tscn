@@ -1,12 +1,14 @@
-[gd_scene load_steps=6 format=3 uid="uid://ik2tn6i1whst"]
+[gd_scene load_steps=7 format=3 uid="uid://ik2tn6i1whst"]
 
+[ext_resource type="Script" uid="uid://duj556oguhs6p" path="res://Main.cs" id="1_7mycd"]
 [ext_resource type="PackedScene" uid="uid://bbi8ygj1a622w" path="res://player.tscn" id="1_63vti"]
-[ext_resource type="Texture2D" uid="uid://ld3ydmymdc8i" path="res://rainy/2d_lights_and_shadows_neutral_point_light.webp" id="2_l3met"]
 [ext_resource type="PackedScene" uid="uid://ci4huuyr3jv68" path="res://stage.tscn" id="3_h2yge"]
 [ext_resource type="PackedScene" uid="uid://cwtsrjbs2pgdm" path="res://beam.tscn" id="4_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://dvt5rgwba3e5s" path="res://Circle.tscn" id="5_lquwl"]
+[ext_resource type="PackedScene" uid="uid://b7jh8lox3434f" path="res://hud.tscn" id="7_272bh"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_7mycd")
 
 [node name="Rainhand" parent="." instance=ExtResource("1_63vti")]
 z_index = 5
@@ -16,20 +18,50 @@ scale = Vector2(0.5, 0.5)
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
 color = Color(0.412152, 0.412152, 0.412152, 1)
 
-[node name="PointLight2D" type="PointLight2D" parent="."]
-position = Vector2(566, 322)
-scale = Vector2(1, 1.04688)
-texture = ExtResource("2_l3met")
-
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
 color = Color(0.445584, 0.348789, 0.202909, 1)
 
 [node name="Stage" parent="." instance=ExtResource("3_h2yge")]
-position = Vector2(1, 0)
-
-[node name="Beam" parent="." instance=ExtResource("4_1bvp3")]
 
 [node name="Circle" parent="." instance=ExtResource("5_lquwl")]
 z_index = 4
-position = Vector2(440, 188)
-scale = Vector2(2, 2)
+position = Vector2(368, 80)
+scale = Vector2(3.5, 3.5)
+
+[node name="BeamDelayTimer" type="Timer" parent="."]
+wait_time = 3.0
+
+[node name="HUD" parent="." instance=ExtResource("7_272bh")]
+
+[node name="Beams" type="Node2D" parent="."]
+position = Vector2(1, 288)
+
+[node name="Beam" parent="Beams" instance=ExtResource("4_1bvp3")]
+position = Vector2(-1, -152)
+
+[node name="Beam2" parent="Beams" instance=ExtResource("4_1bvp3")]
+position = Vector2(-1, 0)
+
+[node name="Beam3" parent="Beams" instance=ExtResource("4_1bvp3")]
+position = Vector2(-1, 144)
+
+[node name="Beam4" parent="Beams" instance=ExtResource("4_1bvp3")]
+position = Vector2(471, -288)
+rotation = 1.5708
+
+[node name="Beam5" parent="Beams" instance=ExtResource("4_1bvp3")]
+position = Vector2(631, -288)
+rotation = 1.5708
+
+[node name="Beam6" parent="Beams" instance=ExtResource("4_1bvp3")]
+position = Vector2(791, -288)
+rotation = 1.5708
+
+[connection signal="Quota" from="Circle" to="." method="OnCircleQuotaFinish"]
+[connection signal="timeout" from="BeamDelayTimer" to="." method="OnBeamDelayTimeout"]
+[connection signal="Hit" from="Beams/Beam" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beams/Beam2" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beams/Beam3" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beams/Beam4" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beams/Beam5" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beams/Beam6" to="." method="OnBeamHit"]
