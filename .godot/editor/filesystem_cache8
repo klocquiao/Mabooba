@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1741836103
+icon.svg::CompressedTexture2D::1021859864528159400::1740859435::1741835318::1::::<><>::
+main.tscn::PackedScene::583828546625334691::1741836103::0::1::::<><>::uid://bbi8ygj1a622w::::res://player.tscn
+Player.cs::CSharpScript::-1::1741835722::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2475171399404534672::1741836103::0::1::::<><>::res://Player.cs<>uid://dpnpplfcu05o4::::res://rainy/rainback.png<>uid://hkf5vtqk05fq::::res://rainy/rainfront.png<>uid://satcnk5hhoa1::::res://rainy/rainside2.png<>uid://bp3os2ajtj7rc::::res://rainy/rainside.png
+::res://rainy/::1741836180
+2d_lights_and_shadows_neutral_point_light.webp::CompressedTexture2D::780013525346025034::1741836180::1741836181::1::::<><>::
+rainback.png::CompressedTexture2D::8239869743852125433::1740860445::1741835318::1::::<><>::
+rainfront.png::CompressedTexture2D::512323974870788186::1740860445::1741835318::1::::<><>::
+rainside2.png::CompressedTexture2D::1264557079559259962::1740860445::1741835318::1::::<><>::
+rainside.png::CompressedTexture2D::3497939516131433564::1740860445::1741835318::1::::<><>::

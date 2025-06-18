@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=3 uid="uid://bbi8ygj1a622w"]
+
+[ext_resource type="Script" uid="uid://cqffibfoawqpl" path="res://Player.cs" id="1_upfx8"]
+[ext_resource type="Texture2D" uid="uid://dpnpplfcu05o4" path="res://rainy/rainback.png" id="2_hf3th"]
+[ext_resource type="Texture2D" uid="uid://hkf5vtqk05fq" path="res://rainy/rainfront.png" id="3_0l2la"]
+[ext_resource type="Texture2D" uid="uid://satcnk5hhoa1" path="res://rainy/rainside2.png" id="4_cjjqt"]
+[ext_resource type="Texture2D" uid="uid://bp3os2ajtj7rc" path="res://rainy/rainside.png" id="5_n0kj5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ydmny"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_hf3th")
+}],
+"loop": true,
+"name": &"stand-back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_0l2la")
+}],
+"loop": true,
+"name": &"stand-front",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_cjjqt")
+}],
+"loop": true,
+"name": &"stand-left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_n0kj5")
+}],
+"loop": true,
+"name": &"stand-right",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_isnnh"]
+size = Vector2(126, 158)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_upfx8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ydmny")
+animation = &"stand-front"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_isnnh")

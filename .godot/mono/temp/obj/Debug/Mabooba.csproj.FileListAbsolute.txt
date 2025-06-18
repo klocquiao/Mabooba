@@ -1,0 +1,34 @@
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\bin\Debug\Mabooba.deps.json
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\bin\Debug\Mabooba.runtimeconfig.json
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\bin\Debug\Mabooba.dll
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\bin\Debug\Mabooba.pdb
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.csproj.AssemblyReference.cache
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.AssemblyInfoInputs.cache
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.AssemblyInfo.cs
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.csproj.CoreCompileInputs.cache
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.csproj.Up2Date
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.dll
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\refint\Mabooba.dll
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.pdb
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\Mabooba.genruntimeconfig.cache
+C:\Users\Kyle Locquiao\Documents\mabooba\.godot\mono\temp\obj\Debug\ref\Mabooba.dll
+E:\Projects\mabooba\.godot\mono\temp\bin\Debug\Mabooba.deps.json
+E:\Projects\mabooba\.godot\mono\temp\bin\Debug\Mabooba.runtimeconfig.json
+E:\Projects\mabooba\.godot\mono\temp\bin\Debug\Mabooba.dll
+E:\Projects\mabooba\.godot\mono\temp\bin\Debug\Mabooba.pdb
+E:\Projects\mabooba\.godot\mono\temp\bin\Debug\GodotSharp.dll
+E:\Projects\mabooba\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.csproj.AssemblyReference.cache
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.AssemblyInfoInputs.cache
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.AssemblyInfo.cs
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.csproj.CoreCompileInputs.cache
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.csproj.Up2Date
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.dll
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\refint\Mabooba.dll
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.pdb
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.genruntimeconfig.cache
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\ref\Mabooba.dll
