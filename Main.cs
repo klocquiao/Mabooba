@@ -12,6 +12,11 @@ public partial class Main : Node2D
 	}
 	
 	private void OnBeamDelayTimeout() {
-		var beams = GetNode<Node2D>("Beams") 
+		Random random = new Random();
+		
+		var beams = GetNode<Node2D>("Beams").GetChildren();
+		
+		int index = random.Next(beams.Count);
+		((Beam)beams[index]).TelegraphBeam();
 	}
 }

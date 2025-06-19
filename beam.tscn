@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cwtsrjbs2pgdm"]
+[gd_scene load_steps=8 format=3 uid="uid://cwtsrjbs2pgdm"]
 
 [ext_resource type="Script" uid="uid://udtu14y0fj7" path="res://Beam.cs" id="1_l0jbn"]
 [ext_resource type="Texture2D" uid="uid://83s7pholoonf" path="res://textures/Space_Stars7.svg" id="2_l0jbn"]
+[ext_resource type="Texture2D" uid="uid://y6fm4k138thu" path="res://horsie/horseFront.png" id="3_srmnf"]
+[ext_resource type="Texture2D" uid="uid://dmgyp8yu582tj" path="res://horsie/horseR.png" id="4_g4du1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rxbo3"]
 size = Vector2(1152, 64)
@@ -12,6 +14,25 @@ particles_anim_h_frames = 1
 particles_anim_v_frames = 1
 particles_anim_loop = false
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_l0jbn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_srmnf")
+}],
+"loop": true,
+"name": &"attack-down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_g4du1")
+}],
+"loop": true,
+"name": &"attack-right",
+"speed": 5.0
+}]
+
 [node name="Beam" type="Area2D"]
 script = ExtResource("1_l0jbn")
 
@@ -20,7 +41,6 @@ position = Vector2(576, 32)
 shape = SubResource("RectangleShape2D_rxbo3")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-modulate = Color(1, 0, 0, 0.470588)
 texture_repeat = 2
 material = SubResource("CanvasItemMaterial_l0jbn")
 position = Vector2(576, 32)
@@ -30,6 +50,11 @@ region_rect = Rect2(0, 0, 1152, 64)
 
 [node name="FiringTimer" type="Timer" parent="."]
 one_shot = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(88, 32)
+sprite_frames = SubResource("SpriteFrames_l0jbn")
+animation = &"attack-right"
 
 [connection signal="body_entered" from="." to="." method="OnBodyEntered"]
 [connection signal="body_exited" from="." to="." method="OnBodyExited"]

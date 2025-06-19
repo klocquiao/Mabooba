@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mabooba")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aae49b8b0e2ebebb26087217a2ea3778ca9c3913")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85684319f3b3023ecffaea4fe84da4c69f9deb74")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mabooba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mabooba")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

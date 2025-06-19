@@ -12,7 +12,7 @@ script = ExtResource("1_7mycd")
 
 [node name="Rainhand" parent="." instance=ExtResource("1_63vti")]
 z_index = 5
-position = Vector2(550, 405)
+position = Vector2(168, 72)
 scale = Vector2(0.5, 0.5)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
@@ -29,7 +29,7 @@ position = Vector2(368, 80)
 scale = Vector2(3.5, 3.5)
 
 [node name="BeamDelayTimer" type="Timer" parent="."]
-wait_time = 3.0
+autostart = true
 
 [node name="HUD" parent="." instance=ExtResource("7_272bh")]
 

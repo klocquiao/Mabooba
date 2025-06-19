@@ -1,3 +1,5 @@
+AnimatedSprite2D
+RigidBody2D
 Timer
 Node2D
 Label
@@ -9,6 +11,4 @@ Area2D
 Polygon2D
 Line2D
 MeshInstance2D
-AnimatedSprite2D
 RayCast2D
-Path2D

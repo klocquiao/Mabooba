@@ -50,3 +50,4 @@ C:\Users\klocq\projects\Mabooba\.godot\mono\temp\obj\Debug\refint\Mabooba.dll
 C:\Users\klocq\projects\Mabooba\.godot\mono\temp\obj\Debug\Mabooba.pdb
 C:\Users\klocq\projects\Mabooba\.godot\mono\temp\obj\Debug\Mabooba.genruntimeconfig.cache
 C:\Users\klocq\projects\Mabooba\.godot\mono\temp\obj\Debug\ref\Mabooba.dll
+E:\Projects\mabooba\.godot\mono\temp\obj\Debug\Mabooba.sourcelink.json

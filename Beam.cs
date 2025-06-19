@@ -31,10 +31,12 @@ public partial class Beam : Area2D
 		}));
 	}
 	
-	public void FireBeam() {
+	private void FireBeam() {
 		if (bodies.Count != 0) {
 			EmitSignal(SignalName.Hit);
 		}
+		
+		Visible = false;
 	}
 
 	public void TelegraphBeam()
@@ -42,11 +44,12 @@ public partial class Beam : Area2D
 		// Show telegraph for 1.5 seconds
 		// 
 		isFiring = false;
+		Visible = true;
 		var tween = GetTree().CreateTween();
 		tween.TweenProperty(GetNode<Sprite2D>("Sprite2D"), "modulate", new Color(1, 0, 0, 0.3f), BeamTimer);
 		tween.TweenProperty(GetNode<Sprite2D>("Sprite2D"), "modulate", new Color(0, 1, 1, 0.3f), BeamTimer);
 		tween.TweenProperty(GetNode<Sprite2D>("Sprite2D"), "modulate", new Color(1, 0, 0, 0.3f), BeamTimer);
-		tween.TweenProperty(GetNode<Sprite2D>("Sprite2D"), "modulate", new Color(1, 0, 0, 0.0f), BeamTimer);
+		tween.TweenProperty(GetNode<Sprite2D>("Sprite2D"), "modulate", new Color(1, 1, 1, 0.0f), BeamTimer);
 		tween.TweenCallback(Callable.From(() => {
 			FireBeam();
 		}));
@@ -54,6 +57,7 @@ public partial class Beam : Area2D
 	
 	public override void _Ready()
 	{
-		TelegraphBeam();
+		Visible = false;
+		//TelegraphBeam();
 	}
 }

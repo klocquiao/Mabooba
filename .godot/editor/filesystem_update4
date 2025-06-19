@@ -1,11 +1,11 @@
 res://main.tscn
+res://Main.cs
+res://beam.tscn
+res://Beam.cs
 res://player.tscn
 res://stage.tscn
-res://beam.tscn
 res://Circle.tscn
-res://Beam.cs
-res://Player.cs
-res://Main.cs
 res://hud.tscn
+res://Player.cs
 res://Hud.cs
 res://Circle.cs
