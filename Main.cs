@@ -3,20 +3,22 @@ using System;
 
 public partial class Main : Node2D
 {
-	private void OnBeamHit() {
+	private void GameOver() {
+		GetNode<BeamManager>("BeamManager").Stop();
+		GetNode<Circle>("Circle").Stop();
 		GetNode<Hud>("HUD").ShowMessage("Game Over");
 	}
 	
-	private void OnCircleQuotaFinish() {
+	private void Win() {
 		GetNode<Hud>("HUD").ShowMessage("Success!");
 	}
 	
-	private void OnBeamDelayTimeout() {
-		Random random = new Random();
-		
-		var beams = GetNode<Node2D>("Beams").GetChildren();
-		
-		int index = random.Next(beams.Count);
-		((Beam)beams[index]).TelegraphBeam();
+	private void OnBeamHit() {
+		GameOver();
 	}
+	
+	private void OnCircleQuotaFinish() {
+		Win();
+	}
+
 }

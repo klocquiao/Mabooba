@@ -10,7 +10,11 @@ public partial class Beam : Area2D
 	[Export]
 	public float BeamTimer = 0.5f;
 	
+	[Export]
+	public bool isVertical = false;
+	
 	public bool isFiring = false;
+	
 	public List<Node2D> bodies = new List<Node2D>();
 	
 	private void OnBodyEntered(Node2D body)
@@ -21,14 +25,6 @@ public partial class Beam : Area2D
 	
 	private void OnBodyExited(Node2D body) {
 		bodies.Remove(body);
-	}
-	
-	private void OnFiringTimeout() {		
-		var tween = GetTree().CreateTween();
-		tween.TweenProperty(GetNode<Sprite2D>("Sprite2D"), "modulate", new Color(1, 0, 0, 0.0f), BeamTimer);
-		tween.TweenCallback(Callable.From(() => {
-			isFiring = false;
-		}));
 	}
 	
 	private void FireBeam() {
@@ -43,7 +39,6 @@ public partial class Beam : Area2D
 	{
 		// Show telegraph for 1.5 seconds
 		// 
-		isFiring = false;
 		Visible = true;
 		var tween = GetTree().CreateTween();
 		tween.TweenProperty(GetNode<Sprite2D>("Sprite2D"), "modulate", new Color(1, 0, 0, 0.3f), BeamTimer);
@@ -58,6 +53,10 @@ public partial class Beam : Area2D
 	public override void _Ready()
 	{
 		Visible = false;
+		if (Mathf.Floor(Mathf.RadToDeg(Rotation)) == 90) {
+			GetNode<AnimatedSprite2D>("AnimatedSprite2D").Animation = "attack-down";
+			GetNode<AnimatedSprite2D>("AnimatedSprite2D").Rotation = Mathf.DegToRad(-90);
+		}
 		//TelegraphBeam();
 	}
 }

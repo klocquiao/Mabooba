@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dmgyp8yu582tj" path="res://horsie/horseR.png" id="4_g4du1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rxbo3"]
-size = Vector2(1152, 64)
+size = Vector2(1152, 128)
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_l0jbn"]
 particles_animation = true
@@ -37,22 +37,22 @@ animations = [{
 script = ExtResource("1_l0jbn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(576, 32)
+position = Vector2(576, 64)
 shape = SubResource("RectangleShape2D_rxbo3")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_repeat = 2
 material = SubResource("CanvasItemMaterial_l0jbn")
-position = Vector2(576, 32)
+position = Vector2(576, 64)
 texture = ExtResource("2_l0jbn")
 region_enabled = true
-region_rect = Rect2(0, 0, 1152, 64)
+region_rect = Rect2(0, 0, 1152, 128)
 
 [node name="FiringTimer" type="Timer" parent="."]
 one_shot = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(88, 32)
+position = Vector2(86, 64)
 sprite_frames = SubResource("SpriteFrames_l0jbn")
 animation = &"attack-right"
 

@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://3xgcnrpoygll"]
+
+[ext_resource type="Script" uid="uid://f1spxub36suc" path="res://BeamManager.cs" id="1_2rhi0"]
+[ext_resource type="PackedScene" uid="uid://cwtsrjbs2pgdm" path="res://beam.tscn" id="1_b41mu"]
+
+[node name="BeamManager" type="Node2D"]
+script = ExtResource("1_2rhi0")
+
+[node name="BeamDelayTimer" type="Timer" parent="."]
+autostart = true
+
+[node name="Beam" parent="." instance=ExtResource("1_b41mu")]
+position = Vector2(-1, -152)
+
+[node name="Beam2" parent="." instance=ExtResource("1_b41mu")]
+position = Vector2(-1, 0)
+
+[node name="Beam3" parent="." instance=ExtResource("1_b41mu")]
+position = Vector2(-1, 144)
+
+[node name="Beam4" parent="." instance=ExtResource("1_b41mu")]
+position = Vector2(447, -288)
+rotation = 1.5708
+
+[node name="Beam5" parent="." instance=ExtResource("1_b41mu")]
+position = Vector2(639, -288)
+rotation = 1.5708
+
+[node name="Beam6" parent="." instance=ExtResource("1_b41mu")]
+position = Vector2(831, -288)
+rotation = 1.5708
+
+[connection signal="timeout" from="BeamDelayTimer" to="." method="OnBeamDelayTimeout"]
+[connection signal="Hit" from="Beam" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beam2" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beam3" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beam4" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beam5" to="." method="OnBeamHit"]
+[connection signal="Hit" from="Beam6" to="." method="OnBeamHit"]

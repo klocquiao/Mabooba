@@ -1,25 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750289591
-Beam.cs::CSharpScript::41504728126293710::1750289165::0::1::::<>Area2D<><>0<>0<><>::
-beam.tscn::PackedScene::6357342844225700914::1750289165::0::1::::<><><>0<>0<><>::uid://udtu14y0fj7::::res://Beam.cs<>uid://83s7pholoonf::::res://textures/Space_Stars7.svg
-Circle.cs::CSharpScript::7624859014744848237::1750289165::0::1::::<>Area2D<><>0<>0<><>::
-Circle.tscn::PackedScene::8674303162256835742::1750289165::0::1::::<><><>0<>0<><>::uid://dgvskw7fn67w0::::res://Circle.cs<>uid://cofff6wxfqgos::::res://textures/rune.png<>uid://ld3ydmymdc8i::::res://rainy/2d_lights_and_shadows_neutral_point_light.webp
+::res://::1751312545
+Beam.cs::CSharpScript::41504728126293710::1751310421::0::1::::<>Area2D<><>0<>0<><>::
+beam.tscn::PackedScene::6357342844225700914::1751312346::0::1::::<><><>0<>0<><>::uid://udtu14y0fj7::::res://Beam.cs<>uid://83s7pholoonf::::res://textures/Space_Stars7.svg<>uid://y6fm4k138thu::::res://horsie/horseFront.png<>uid://dmgyp8yu582tj::::res://horsie/horseR.png
+BeamManager.cs::CSharpScript::405738971591320266::1751312345::0::1::::<>Node2D<><>0<>0<><>::
+beam_manager.tscn::PackedScene::2013136893519107801::1751312346::0::1::::<><><>0<>0<><>::uid://f1spxub36suc::::res://BeamManager.cs<>uid://cwtsrjbs2pgdm::::res://beam.tscn
+Circle.cs::CSharpScript::7624859014744848237::1750441712::0::1::::<>Area2D<><>0<>0<><>::
+Circle.tscn::PackedScene::8674303162256835742::1751312346::0::1::::<><><>0<>0<><>::uid://dgvskw7fn67w0::::res://Circle.cs<>uid://cofff6wxfqgos::::res://textures/rune.png<>uid://ld3ydmymdc8i::::res://rainy/2d_lights_and_shadows_neutral_point_light.webp
 Hud.cs::CSharpScript::5902974158537921028::1750289165::0::1::::<>CanvasLayer<><>0<>0<><>::
-hud.tscn::PackedScene::4651527630512620887::1750289165::0::1::::<><><>0<>0<><>::uid://cqdpee8l6s5ky::::res://Hud.cs
+hud.tscn::PackedScene/PackedScene::4651527630512620887::1750304865::0::1::::<><><>0<>0<><>::uid://cqdpee8l6s5ky::::res://Hud.cs
 icon.svg::CompressedTexture2D/CompressedTexture2D::1021859864528159400::1740855835::1749698115::1::::<><><>0<>0<>886772652873eb3cfd0be228178c3027<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Main.cs::CSharpScript::8583495057377382189::1750289165::0::1::::<>Node2D<><>0<>0<><>::
-main.tscn::PackedScene::583828546625334691::1750289165::0::1::::<><><>0<>0<><>::uid://duj556oguhs6p::::res://Main.cs<>uid://bbi8ygj1a622w::::res://player.tscn<>uid://ci4huuyr3jv68::::res://stage.tscn<>uid://cwtsrjbs2pgdm::::res://beam.tscn<>uid://dvt5rgwba3e5s::::res://Circle.tscn<>uid://b7jh8lox3434f::::res://hud.tscn
+Main.cs::CSharpScript::8583495057377382189::1751309135::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::583828546625334691::1751312346::0::1::::<><><>0<>0<><>::uid://duj556oguhs6p::::res://Main.cs<>uid://bbi8ygj1a622w::::res://player.tscn<>uid://ci4huuyr3jv68::::res://stage.tscn<>uid://dvt5rgwba3e5s::::res://Circle.tscn<>uid://3xgcnrpoygll::::res://beam_manager.tscn<>uid://b7jh8lox3434f::::res://hud.tscn
 Player.cs::CSharpScript::5906502686564442489::1750051950::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::2475171399404534672::1750138479::0::1::::<><><>0<>0<><>::uid://cqffibfoawqpl::::res://Player.cs<>uid://dpnpplfcu05o4::::res://rainy/rainback.png<>uid://hkf5vtqk05fq::::res://rainy/rainfront.png<>uid://satcnk5hhoa1::::res://rainy/rainside2.png<>uid://bp3os2ajtj7rc::::res://rainy/rainside.png
-README.md::TextFile::-1::1750207264::0::1::::<><><>0<>0<><>::
-stage.tscn::PackedScene::5394680894538165435::1750138479::0::1::::<><><>0<>0<><>::uid://b64nwd1fialyt::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Stone Ground.png<>uid://dg88ccmpiu1w::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Grass.png<>uid://ygrw2lefiswn::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Props.png
-::res://horsie/::1750289165
+player.tscn::PackedScene::2475171399404534672::1751312346::0::1::::<><><>0<>0<><>::uid://cqffibfoawqpl::::res://Player.cs<>uid://dpnpplfcu05o4::::res://rainy/rainback.png<>uid://hkf5vtqk05fq::::res://rainy/rainfront.png<>uid://satcnk5hhoa1::::res://rainy/rainside2.png<>uid://bp3os2ajtj7rc::::res://rainy/rainside.png
+README.md::TextFile/TextFile::-1::1750207264::0::1::::<><><>0<>0<><>::
+stage.tscn::PackedScene::5394680894538165435::1751312346::0::1::::<><><>0<>0<><>::uid://b64nwd1fialyt::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Stone Ground.png<>uid://dg88ccmpiu1w::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Grass.png<>uid://ygrw2lefiswn::::res://Pixel Art Top Down - Basic v1.2.0/Texture/TX Props.png
+::res://horsie/::1750289593
 horseBack.png::CompressedTexture2D/CompressedTexture2D::4026861699918010841::1750289165::1750289593::1::::<><><>0<>0<>b8c09aed6542ea6456eabe39c424fefe<>res://.godot/imported/horseBack.png-7292585716d769943087b5cc0eb7bc4b.ctex::
 horseFront.png::CompressedTexture2D/CompressedTexture2D::1748854512024577366::1750289165::1750289593::1::::<><><>0<>0<>92967ca374f06055a14b68bccbe11e65<>res://.godot/imported/horseFront.png-dd62707e9ab6499bfa1c9f15752c1ef2.ctex::
 horseL.png::CompressedTexture2D/CompressedTexture2D::4256961541806895085::1750289165::1750289593::1::::<><><>0<>0<>711082a021dc804c6b8993475e1ec757<>res://.godot/imported/horseL.png-8b2c24d3a59e7a06bb770c93f7b3e4af.ctex::
 horseR.png::CompressedTexture2D/CompressedTexture2D::8015400207291007203::1750289165::1750289593::1::::<><><>0<>0<>35fcbc24924ae710607d7f09f318a5d6<>res://.godot/imported/horseR.png-689ce025593f40d8125916384b186a3a.ctex::
 ::res://Pixel Art Top Down - Basic v1.2.0/::1749874567
-Changelog.txt::TextFile::-1::1749874156::0::1::::<><><>0<>0<><>::
+Changelog.txt::TextFile/TextFile::-1::1749874156::0::1::::<><><>0<>0<><>::
 Scene Overview.png::CompressedTexture2D/CompressedTexture2D::4146636051961799515::1749874156::1749874567::1::::<><><>0<>0<>12308a85cd6d168a0d956f0ccff8c16a<>res://.godot/imported/Scene Overview.png-091acad22473e77ce3061aad36230ee9.ctex::
 ::res://Pixel Art Top Down - Basic v1.2.0/Texture/::1749874567
 TX Plant.png::CompressedTexture2D/CompressedTexture2D::7258320502659281247::1749874156::1749874567::1::::<><><>0<>0<>f3baf2bc63832dd04d9490155268f388<>res://.godot/imported/TX Plant.png-ff04fa5634dd8fe6f63b3d5bbe855e49.ctex::
